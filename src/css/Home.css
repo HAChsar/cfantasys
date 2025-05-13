@@ -1,0 +1,48 @@
+.homepage {
+    font-size: large;
+    text-align: center;
+    background-image: url(../assets/bgimg1.png);
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    height: 100vh;
+    overflow: auto;
+}
+.home
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+    color: black;
+}
+.home p
+{
+    font-size:larger;
+}
+.startbtn
+{
+    background-color: red;
+    color: black;
+    border-radius: 10px;
+    padding: 1px 25px;
+    font-size: medium;
+    border: none;
+    cursor: pointer;
+}
+.startbtn:hover
+{
+    background-color: grey;
+    color: red;
+    border: 2px solid red;
+    transition: all 0.3s ease-in-out;
+}
+nav
+{
+    color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-weight: bold;
+}
