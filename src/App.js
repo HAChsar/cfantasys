@@ -5,7 +5,7 @@ import Reg from "./components/Register";
 import Home from "./components/Home";
 import Pets from "./components/Pets";
 import P1details from "./components/p1details";
-import Eg from "./components/eg";
+
 
 function App() {
   return (
@@ -16,7 +16,6 @@ function App() {
      <Route path='/login' element={<Login/>}/>
      <Route path='/register' element={<Reg/>}/>
      <Route path='/p1details' element={<P1details/>}/>
-     <Route path='/eg' element={<Eg/>}/>
      </Routes>
     </BrowserRouter>
   );
