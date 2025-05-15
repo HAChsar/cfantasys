@@ -5,10 +5,14 @@ import { useNavigate } from "react-router-dom";
 const Login =() => 
 {
     const navigate=useNavigate();
+    const handleClick = () => {
+    alert('Loggin in');
+    navigate('/petfantasy');
+  }
     return (
         <div className="page">
-             <h1 style={{position:'fixed', marginLeft:'5%', cursor:'pointer'}} className='title'><em>Car Fantasys</em></h1>
-           <div className='lbox'>
+            <h1 style={{position:'fixed', marginLeft:'5%', cursor:'pointer'}} className='title'><em>Car Fantasys</em></h1>
+            <div className='lbox'>
             <div className='img1'> 
             </div>
             <br></br>
@@ -22,8 +26,8 @@ const Login =() =>
             <br></br>
             <p style={{display: "inline", cursor:"pointer", float:'left', margin:'auto', marginLeft:'5%',textDecoration:'underline'}} onClick={ () => navigate('/register') }>Sign up</p>
             <p id="fp" style={{display: "inline", float:'right',textDecoration:'underline'}}>Forget password?</p>      
-            <br></br>   <br></br>
-            <button id="st" onClick={() => navigate('/pets')}>Get started</button>
+            <br></br><br></br>
+            <button id="st" onClick={handleClick}>Get started</button>
            </div>
         </div>
     );

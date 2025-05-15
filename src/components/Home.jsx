@@ -1,20 +1,25 @@
 import React from 'react'
 import { useNavigate } from "react-router-dom";
 import '../css/Home.css';
+import { useEffect } from 'react';
 const Home = () => {
     const navigate=useNavigate();
+      useEffect(() => {
+    const display = document.getElementById('displaynav');
+    display.value='Login'; 
+  }, []);
   return (
     <div className='homepage'>
       <nav>
-        <h1 style={{position:'fixed', marginLeft:'5%', cursor:'pointer',color:'black',fontSize:'xx-large'}}><i>Cars Fantasy</i></h1>
-         <h1 style={{ marginLeft:'25%', cursor:'pointer',padding:'25px'}}onClick={() => navigate('/login') }><i>LOGIN</i></h1>     
+        <h1 style={{position:'fixed', marginLeft:'5%', cursor:'pointer',color:'black',fontSize:'xx-large',color:'Red'}}><i>Car Fantasys</i></h1>
+        <input id='displaynav'style={{ marginLeft:'25%', cursor:'pointer',padding:'25px',color:'Red'}
+      }onClick={() => navigate('/login') } readOnly/>  
       </nav>
       <div className='home'>
         <h1 style={{fontWeight:'bolder',fontSize:'xxx-large'}}><em>Welcome to Cars Fantasy</em></h1>
         <p><i>Discover Your Fantasy car suits Your Life style</i></p>
-        <div className='startbtn'><i>
+        <div className='startbtn'>
           <h3  onClick={() => navigate('/petfantasy')}>Get Started</h3>
-        </i>
         </div>
         </div>
     </div>

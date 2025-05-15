@@ -8,6 +8,17 @@
     height: 100vh;
     overflow: auto;
 }
+#displaynav
+{
+    background-color: transparent;
+    color: black;
+    border: none;
+    font-family: system-ui,system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: xx-large;
+    font-weight:600;
+    cursor: pointer;
+    height: 30px; 
+}
 .home
 {
     display: flex;

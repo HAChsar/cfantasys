@@ -31,12 +31,12 @@ const Reg =() =>
         }
       }
     return (
-        <div className="page">
+        <div className="rpage">
            <div className="curtain">
         <div className="left-curtain"></div>
         <div className="right-curtain"></div>
         </div>
-             <h1 onClick={()=> navigate('/')} style={{position:'fixed', marginLeft:'5%', cursor:'pointer'}} className='title'><i>Pet Fantasy</i></h1>
+             <h1 onClick={()=> navigate('/')} style={{position:'fixed', marginLeft:'5%', cursor:'pointer'}} className='title'><i>Car Fantasys</i></h1>
            <div className='lbox'>
             <img id='ig1'src={img1} width={25} height={25}/>
             <h2>Register to Pet Fantasy</h2>
