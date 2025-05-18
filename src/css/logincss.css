@@ -17,7 +17,7 @@
 }
 .lbox
 {
-    background: linear-gradient(to top,grey,red);
+    background-color: transparent;
     opacity: 80%;
     height: 430px;
     width: 380px;
@@ -25,6 +25,7 @@
     float: center;
     margin: auto;
     margin-top: 10%;
+    margin-right: 5%;
     padding: 10px;
     border-radius: 10%; 
     color: black;
@@ -81,4 +82,37 @@
     background: grey;
     color: red;
     border: 2px solid red;
+}
+
+@media (max-width: 600px) {
+    .page {
+        padding: 10px;
+    }
+
+    .title {
+        font-size: large;
+    }
+
+    .lbox {
+        padding: 15px;
+        border-radius: 8px;
+    }
+
+    #st {
+        height: 35px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .title {
+        font-size: x-large;
+    }
+
+    .lbox {
+        width: 90%;
+    }
+
+    #st {
+        font-size: medium;
+    }
 }

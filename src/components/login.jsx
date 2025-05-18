@@ -12,14 +12,14 @@ const Login =() =>
     return (
         <div className="page">
             <h1 style={{position:'fixed', marginLeft:'5%', cursor:'pointer'}} className='title'><em>Car Fantasys</em></h1>
-            <div className='lbox'>
+            <div className='lbox' style={{marginleft:'10%'}}>
             <div className='img1'> 
             </div>
             <br></br>
             <img id='ig1'src={img1} width={25} height={25}/>
             <br></br>
             <h2><em>Sign in into Car Fantasys</em></h2>
-            <p><i>Find your perfect pet whether it's a loyal dog, a charming cat, or a vibrant bird.</i></p>
+            <p><i>Discover Your Fantasy car suits Your Life style</i></p>
             <input id='userid' type='text' placeholder=" Enter your mail Email"/>
             <br></br><br></br>
             <input id='userpw' type='password' placeholder="Password"/>

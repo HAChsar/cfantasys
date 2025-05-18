@@ -56,4 +56,59 @@ nav
     flex-direction: row;
     align-items: center;
     font-weight: bold;
+    justify-content: space-between;
+}
+
+@media (max-width: 600px) {
+    #displaynav {
+        font-size: large;
+        height: auto;
+        text-align: center;
+    }
+    .home {
+        padding: 20px 10px;
+        height: auto;
+    }
+
+    .home p {
+        font-size: small;
+    }
+
+    .startbtn {
+        padding: 5px 15px;
+        font-size: small;
+    }
+
+    nav {
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 10px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 1024px) {
+    #displaynav {
+        font-size: x-large;
+    }
+
+    .home {
+        height: auto;
+        padding: 40px 20px;
+    }
+
+    .home p {
+        font-size: medium;
+    }
+
+    .startbtn {
+        padding: 5px 20px;
+        font-size: medium;
+    }
+
+    nav {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
 }

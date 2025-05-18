@@ -6,13 +6,11 @@ const Pets = () =>
 {   
   return (
     <div className='pethome'>
-      <h1 style={{position:'fixed', marginLeft:'5%', cursor:'pointer',color:'black'}}><i>Car Fantasys</i></h1>
-    
-        <div className='cards'>
+      <h1 style={{position:'static', marginLeft:'5%', cursor:'pointer',color:'black',float:'left'}}><i>Car Fantasys</i></h1>
+      <br></br>
         <div className='Dcard'>
         <br></br><br></br><br></br>
             <Dcard/>
-        </div>
         </div>
     </div>
   )
