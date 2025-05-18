@@ -92,3 +92,35 @@ body {
     text-align: center;
     font-family: Arial, sans-serif;
 }
+@media (max-width: 600px) {
+    .lbox {
+        width: 90%;
+        margin: auto;
+        margin-top: 20%;
+        float: center;
+    }
+#st {
+        width: 90%;
+    }
+#username
+{
+    width: 90%;
+    height: 38px;
+    border-radius: 8px;
+    border: none;     
+}
+#userid
+{
+    width: 90%;
+    height: 38px;
+    border-radius: 8px;
+    border: none;   
+}
+#userpw
+{
+    width: 90%;
+    height: 38px;
+    border-radius: 8px;
+    border: none;   
+}
+}

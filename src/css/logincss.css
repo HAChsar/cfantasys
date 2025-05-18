@@ -85,34 +85,27 @@
 }
 
 @media (max-width: 600px) {
-    .page {
-        padding: 10px;
-    }
-
-    .title {
-        font-size: large;
-    }
-
-    .lbox {
-        padding: 15px;
-        border-radius: 8px;
-    }
-
-    #st {
-        height: 35px;
-    }
-}
-
-@media (max-width: 1024px) {
-    .title {
-        font-size: x-large;
-    }
-
     .lbox {
         width: 90%;
+        margin: auto;
+        margin-top: 20%;
+        align-items: center;
     }
-
-    #st {
-        font-size: medium;
+#st {
+        width: 90%;
     }
+#userid
+{
+    width: 90%;
+    height: 38px;
+    border-radius: 8px;
+    border: none;   
+}
+#userpw
+{
+    width: 90%;
+    height: 38px;
+    border-radius: 8px;
+    border: none;   
+}
 }

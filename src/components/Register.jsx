@@ -37,6 +37,7 @@ const Reg =() =>
         <div className="right-curtain"></div>
         </div>
            <h1 onClick={()=> navigate('/')} style={{position:'fixed', marginLeft:'5%', cursor:'pointer'}} className='title'><i>Car Fantasys</i></h1>
+           <br></br>
            <div className='lbox'>
             <img id='ig1'src={img1} width={25} height={25}/>
             <h2>Register to Car Fantasys</h2>

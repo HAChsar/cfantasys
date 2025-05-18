@@ -11,7 +11,9 @@ const Login =() =>
   }
     return (
         <div className="page">
-            <h1 style={{position:'fixed', marginLeft:'5%', cursor:'pointer'}} className='title'><em>Car Fantasys</em></h1>
+            <h1 style={{position:'fixed', marginLeft:'5%', cursor:'pointer'}}
+             className='title'><em>Car Fantasys</em></h1>
+             <br></br>
             <div className='lbox' style={{marginleft:'10%'}}>
             <div className='img1'> 
             </div>
