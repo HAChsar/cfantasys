@@ -41,6 +41,7 @@ const Dcard = () => {
                         <p>Price: 86.5lacs</p>
                         <p>Location: Mysore</p>
                         <br></br>
+                        <br></br>
                         <p id='d' style={{color:'silver'}} onClick={()=>navigate('/cart')}>Add to cart</p>
                         </div>
                     </div><br></br>
@@ -51,6 +52,7 @@ const Dcard = () => {
                         <p>A5 SEDAN</p>
                         <p>Price: 47.1</p>
                         <p>Location: Trichy</p>
+                        <br></br>
                         <br></br>
                         <p id='d' style={{color:'silver'}} onClick={()=>navigate('/cart')}>Add to cart</p>
                         </div>

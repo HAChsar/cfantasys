@@ -64,6 +64,7 @@
     border-radius: 8px;
     border: none;   
 }
+
 #st
 {
     padding: 5px;
@@ -81,7 +82,7 @@
 {
     background: linear-gradient(to top,red,GREY);
     color: black;
-    border: 2px solid red;
+    border: 2px solid black;
 }
 
 body {
@@ -96,7 +97,7 @@ body {
     .lbox {
         width: 90%;
         margin: auto;
-        margin-top: 20%;
+        margin-top: 25%;
         float: center;
     }
 #st {

@@ -3,14 +3,14 @@ import p4img from '../assets/Dog4.png';
 import '../css/details.css';
 import { useNavigate } from 'react-router-dom';
 import Cimg1 from './cimg1';
+import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 const P4details = () => {
     const navigate=useNavigate();
   return (
     <div className='Detailspage'>
-       <h1 style={{position:'relative', marginLeft:'5%', float:'left',cursor:'pointer',color:'black'}} onClick={()=>navigate('/petfantasy')}><i>Car Fantasys</i></h1>
-        <br></br>
+<h1 style={{position:'relative', marginLeft:'5%', float:'left',cursor:'pointer',color:'black'}} onClick={()=>navigate('/petfantasy')}><i>Car</i><i style={{color:'red'}}>Fantasys</i></h1>        <br></br>
         <div className='pd1bx'>
-      <Cimg1/>
+     
       <div className='c1'>
         <h3>Audi</h3>
         <p>A5 SEDAN</p>
