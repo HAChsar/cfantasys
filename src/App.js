@@ -8,7 +8,7 @@ import P1details from "./components/p1details";
 import P2details from "./components/p2details";
 import P3details from "./components/p3details";
 import P4details from "./components/p4details";
-import Cimg from "./components/c1-carousel";
+import Sell from "./components/sell";
 function App() {
   return (
     <BrowserRouter>
@@ -21,7 +21,7 @@ function App() {
      <Route path='/p2details' element={<P2details/>}/>
      <Route path='/p3details' element={<P3details/>}/>
      <Route path='/p4details' element={<P4details/>}/>
-     <Route path='/c1carousel' element={<Cimg/>}/>
+     <Route path='/sell' element={<Sell/>}/>
       </Routes>
     </BrowserRouter>
   );

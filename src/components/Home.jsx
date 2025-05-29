@@ -5,10 +5,7 @@ import { useEffect,useRef,useState } from 'react';
 const Home = () => {
     const navigate=useNavigate();
     const [showalert, setShowalert] = useState(false);
-    const inputref = useRef(null);
-    const handleKeyDown = () => {
-      inputref.current.blur();
-    };
+   
     useEffect(() => 
       {
          const display = document.getElementById('displaynav');
@@ -22,7 +19,7 @@ const Home = () => {
 
       setTimeout(() => navi(), 4000);
     };
-    async function navi() {
+     function navi() {
       navigate('/petfantasy');  
     };
     
@@ -35,7 +32,7 @@ const Home = () => {
           position:'absolute', 
           top: '50%',
           left: '50%',
-          transform: 'translate(-50%, -50%)', // center horizontally & vertically
+          transform: 'translate(-50%, -50%)',
           height: '150px',
           width: '500px',
           textalign: 'center',
@@ -45,7 +42,7 @@ const Home = () => {
           border: '1px solid red',
           boxShadow: '0 0 10px rgba(0, 0, 0, 0.5)',
           alignitems:'center',
-          // optional for nice appearance 
+          
         },
         spinner: {
         display: 'inline-block',
@@ -58,24 +55,25 @@ const Home = () => {
         borderRadius: '50%',
         animation: 'spin 1s linear infinite',
         marginRight: '10px',
-        alignitems: 'center', // optional for nice appearance 
+        alignitems: 'center', 
     
     },
       };
     
   return (
-    <div className='homepage' ref={inputref}>
+    <div className='homepage' >
       <br></br>
       <nav>
-        <h1 style={{position:'fixed', marginLeft:'5%', cursor:'pointer',color:'black',fontSize:'xx-large',color:'Red'}}><i>Car <i style={{color:'black'}}>Fantasys</i></i></h1><br></br>
-        <input id='displaynav'style={{ marginLeft:'25%', cursor:'pointer',padding:'25px',color:'red'}
-      }onClick={() => navigate('/login') } readOnly/>  
+        <h1 style={{position:'fixed', marginLeft:'5%', cursor:'pointer',color:'black',fontSize:'xx-large',color:'Red'}}><i style={{textDecoration:'underline black'}}>Car <i style={{color:'black' ,textDecoration:'underline red'}}>Fantasys</i></i></h1><br></br>
+        <input id='displaynav'style={{ marginLeft:'25%', cursor:'pointer',padding:'25px',color:'red'}}
+      onClick={() => navigate('/login') } readOnly/>  
+      <h1 className='hsell' onClick={()=>navigate('/sell')}>$ELL</h1>
       </nav>
       <div className='home'>
         <h1 style={{fontWeight:'bolder',fontSize:'xxx-large'}}><em>Welcome to Car Fantasys</em></h1>
         <p><i>Discover Your Fantasy Premium car suits Your Life style</i></p>
         <div className='startbtn'>
-          <h3  onClick={() =>{handleClick(); handleKeyDown();}}>Get Started</h3>
+          <h3  onClick={() =>{handleClick();}}>Get Started</h3>
         </div>
         </div>
         {showalert && (

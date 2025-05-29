@@ -19,7 +19,7 @@
     cursor: pointer;
     height: 30px; 
     float: right;
-    margin-right: 50%;
+    margin-right: 10%;
     padding: 15px;
     width: auto;
 }
@@ -62,26 +62,53 @@ nav
     font-weight: bold;
     justify-content: space-between;
 }
+.hsell
+{
+    float: left;
+    margin-right: 20%;
+    width: 100px;
+    color: green;
+    background-color: transparent;
+    border: 2px solid red;
+    border-radius: 5px;
+}
+.hsell:hover
+{
+    
+    border: 2px solid green;
+    transition: all 0.3s ease-in;
+    cursor: pointer;
+    text-decoration: underline green;
+}
+
 
 @media (max-width: 600px) {
     #displaynav {
         font-weight: bold;
-        font-size: xx-large;
+        font-size: medium;
         height: auto;
         text-align: center;
         top:40;
         position: fixed;
+        margin-right: 30%;
+        align-items: center;
     }
     .home {
         padding: 20px 10px;
         height: auto;
+        position: fixed;
+        float: center;
+        width: fit-content;
+        top: 15%;
     }
     .homepage {
-        top: 10;
-        width: fit-content;
+      width: 100%;
+      height: 100svh;
     }
     .home p {
-        font-size: small;
+        font-size: large;
+        color: black;
+        font-weight: bold;
     }
 
     .startbtn {
@@ -90,13 +117,27 @@ nav
     }
 
     nav {
-        
         flex-direction: column;
         flex-wrap: wrap;
         align-items: center;
         gap: 10px;
         text-align: center;
+        top: 30px;
+        position: fixed;
     }
+    .hsell
+    {
+        margin-top: 40%;
+        font-size: xx-large;
+        float: center;
+        width: 100px;
+        left: 50%;
+        right: 50%;
+        align-items: center; 
+        position: fixed;  
+    }
+    
+    
      .alert-box {
     width: 90vw !important;
     height: auto !important;
@@ -110,7 +151,10 @@ nav
 
 @media (max-width: 1024px) {
     #displaynav {
-        font-size: x-large;
+        font-size: xx-large;
+        margin-right: 10%;
+        text-align: center;
+        position: fixed;
     }
 
     .home {

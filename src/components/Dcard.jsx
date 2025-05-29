@@ -14,7 +14,7 @@ const Dcard = () => {
                     <div className='petimg1'  onClick={()=>navigate('/p1details')}>
                          <img src={dog1} width={150} height={200} alt='Dog'/>
                         <div className='petbx'>
-                        <h3>Ford Mustang</h3>
+                        <h3 typeof='input'>Ford Mustang</h3>
                         <p>Shekby GT500</p>
                         <p>Price: 71.7lacs</p>
                         <p>Location: Hyderabad</p>
