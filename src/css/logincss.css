@@ -1,5 +1,5 @@
 .page {
-    background-image: url(../assets/sunnycar.jpeg);
+    background-image: url(../assets/lgbg4k.png);
     background-size: cover; /* Ensures the image covers the full page */
     background-position: center; /* Centers the image */
     background-repeat: no-repeat; 
@@ -24,7 +24,7 @@
     text-align: center;
     float: center;
     margin: auto;
-    margin-top: 10%;
+    margin-top: 8%;
     margin-right: 5%;
     padding: 10px;
     border-radius: 10%; 

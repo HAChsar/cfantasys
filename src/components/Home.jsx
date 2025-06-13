@@ -64,13 +64,14 @@ const Home = () => {
     <div className='homepage' >
       <br></br>
       <nav>
-        <h1 style={{position:'fixed', marginLeft:'5%', cursor:'pointer',color:'black',fontSize:'xx-large',color:'Red'}}><i style={{textDecoration:'underline black'}}>Car <i style={{color:'black' ,textDecoration:'underline red'}}>Fantasys</i></i></h1><br></br>
+        <h1 style={{position:'fixed', marginLeft:'5%', cursor:'pointer',color:'black',fontSize:'xx-large',color:'Red'}}><i style={{textDecoration:'underline black'}}>Cars<i style={{color:'black' ,textDecoration:'underline red'}}>Fantasy</i></i></h1><br></br>
         <input id='displaynav'style={{ marginLeft:'25%', cursor:'pointer',padding:'25px',color:'red'}}
       onClick={() => navigate('/login') } readOnly/>  
       <h1 className='hsell' onClick={()=>navigate('/sell')}>$ELL</h1>
       </nav>
       <div className='home'>
-        <h1 style={{fontWeight:'bolder',fontSize:'xxx-large'}}><em>Welcome to Car Fantasys</em></h1>
+        <br></br>
+        <h1 style={{fontWeight:'bolder',fontSize:'xxx-large'}}><em>Welcome to Cars Fantasy</em></h1>
         <p><i>Discover Your Fantasy Premium car suits Your Life style</i></p>
         <div className='startbtn'>
           <h3  onClick={() =>{handleClick();}}>Get Started</h3>
@@ -82,8 +83,9 @@ const Home = () => {
               <div style={styles.spinner}></div>
             <h2>Re-directing To Car cards........</h2>
             </div>)}
-           
+            
     </div>
+    
   )
 };
 

@@ -9,7 +9,7 @@ const Dcard = () => {
     const navigate=useNavigate();
   return (
       <div className='Dcard'>
-                <h2><em>Choose your <i style={{color:'red'}}>Fantasy Car</i></em></h2>
+                <h2><em><i style={{color:'red'}}>Choose your </i><i style={{color:'black'}}>Fantasy Premium Car</i></em></h2>
                 < div className='petmg'>
                     <div className='petimg1'  onClick={()=>navigate('/p1details')}>
                          <img src={dog1} width={150} height={200} alt='Dog'/>
@@ -19,9 +19,10 @@ const Dcard = () => {
                         <p>Price: 71.7lacs</p>
                         <p>Location: Hyderabad</p>
                         <br></br>
-                        <p id='d' style={{color:'silver'}} onClick={()=>navigate('/cart')}>Add to cart</p>
+                        <p id='d' style={{color:'black'}} onClick={()=>navigate('/cart')}>Add to cart</p>
                     </div>
-                    </div> <br></br>
+                    </div>
+                    <br></br>
                     <div className='petimg1' onClick={()=>navigate('/p2details')}>
                          <img src={dog2} width={150} height={200} alt='Dog'/>
                         <div className='petbx'>
@@ -30,7 +31,7 @@ const Dcard = () => {
                         <p>Price: 66.lacs</p>
                         <p>Location: Hyderabad</p>
                         <br></br>
-                        <p id='d' style={{color:'silver'}} onClick={()=>navigate('/cart')}>Add to cart</p>
+                        <p id='d' style={{color:'black'}} onClick={()=>navigate('/cart')}>Add to cart</p>
                         </div>
                     </div> <br></br>
                     <div className='petimg1' onClick={()=>navigate('/p3details')}>
@@ -41,8 +42,8 @@ const Dcard = () => {
                         <p>Price: 86.5lacs</p>
                         <p>Location: Mysore</p>
                         <br></br>
-                        <br></br>
-                        <p id='d' style={{color:'silver'}} onClick={()=>navigate('/cart')}>Add to cart</p>
+                        
+                        <p id='d' style={{color:'black'}} onClick={()=>navigate('/cart')}>Add to cart</p>
                         </div>
                     </div><br></br>
                     <div className='petimg1' onClick={()=>navigate('/p4details')}>
@@ -53,11 +54,11 @@ const Dcard = () => {
                         <p>Price: 47.1</p>
                         <p>Location: Trichy</p>
                         <br></br>
-                        <br></br>
-                        <p id='d' style={{color:'silver'}} onClick={()=>navigate('/cart')}>Add to cart</p>
+                        <p id='d' style={{color:'black'}} onClick={()=>navigate('/cart')}>Add to cart</p>
                         </div>
                     </div> 
                 </div>
+                <br></br>
             </div>
   )
 };

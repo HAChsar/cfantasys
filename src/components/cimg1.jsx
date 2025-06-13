@@ -11,7 +11,6 @@ const Cimg1 = () =>
     const navigate=useNavigate();
     const im = [
       { id: 1, image: imageR1 },
-     
       { id: 2, image: imageR3 },
       { id :3, image: imageR4},
       { id :4, image: imageR5},

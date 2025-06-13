@@ -6,7 +6,7 @@ const P3details = () => {
     const navigate=useNavigate();
   return (
     <div className='Detailspage'>
-<h1 style={{position:'relative', marginLeft:'5%', float:'left',cursor:'pointer',color:'black'}} onClick={()=>navigate('/petfantasy')}><i>Car</i><i style={{color:'red'}}>Fantasys</i></h1>        <br></br>
+<h1 style={{position:'relative', marginLeft:'5%', float:'left',cursor:'pointer',color:'black'}} onClick={()=>navigate('/petfantasy')}><i style={{textDecoration:'underline red'}}>Car</i><i style={{color:'red',textDecoration:'underline black'}}>Fantasys</i></h1>        <br></br>
         <div className='pd1bx'>
       <img src={p2img} width={700} height={400} alt='Dog'/>
       <div className='c1'>

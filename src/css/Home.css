@@ -1,7 +1,7 @@
 .homepage {
     font-size: large;
     text-align: center;
-    background-image: url(../assets/bgimg1.png);
+    background-image: url(../assets/bghm1.png);
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat; 
@@ -19,9 +19,9 @@
     cursor: pointer;
     height: 30px; 
     float: right;
-    margin-right: 10%;
+    margin-right: 20%;
     padding: 15px;
-    width: auto;
+    width: 120px;
 }
 .home
 {
@@ -31,6 +31,9 @@
     justify-content: center;
     height: 60vh;
     color: black;
+    font-family: cursive;
+    float: left;
+    margin-left: 5%;
 }
 .home p
 {
@@ -48,7 +51,7 @@
 }
 .startbtn:hover
 {
-    background-color: grey;
+    background-color: white;
     color: red;
     border: 2px solid red;
     transition: all 0.3s ease-in-out;
@@ -65,12 +68,13 @@ nav
 .hsell
 {
     float: left;
-    margin-right: 20%;
+    margin-right: 40%;
     width: 100px;
     color: green;
     background-color: transparent;
     border: 2px solid red;
     border-radius: 5px;
+    padding: 10px;  
 }
 .hsell:hover
 {
@@ -81,17 +85,16 @@ nav
     text-decoration: underline green;
 }
 
-
 @media (max-width: 600px) {
     #displaynav {
         font-weight: bold;
-        font-size: medium;
+        font-size: small;
         height: auto;
         text-align: center;
+        float: right;
         top:40;
-        position: fixed;
-        margin-right: 30%;
-        align-items: center;
+        margin-right: 10%;
+        align-items: right;
     }
     .home {
         padding: 20px 10px;
@@ -107,7 +110,8 @@ nav
     }
     .home p {
         font-size: large;
-        color: black;
+        color: red;
+        font-size: large;
         font-weight: bold;
     }
 
@@ -117,10 +121,10 @@ nav
     }
 
     nav {
-        flex-direction: column;
+        flex-direction: row;
         flex-wrap: wrap;
         align-items: center;
-        gap: 10px;
+        gap: 50px;
         text-align: center;
         top: 30px;
         position: fixed;

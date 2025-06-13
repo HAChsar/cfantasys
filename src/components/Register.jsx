@@ -34,7 +34,7 @@ const Reg =() =>
       }
     return (
         <div className="rpage">
-           <h1 onClick={()=> navigate('/')} style={{position:'fixed', marginLeft:'5%', cursor:'pointer'}} className='title'><i>Car <i style={{color:'black'}}>Fantasys</i></i></h1>
+           <h1 onClick={()=> navigate('/')} style={{position:'fixed', marginLeft:'5%', cursor:'pointer',textDecoration:'underline black'}} className='title'><i>Cars<i style={{color:'black',textDecoration:'underline red'}}>Fantasy</i></i></h1>
            <div className='lbox'>
             <img id='ig1'src={img1} width={25} height={25}/>
             <h2>Register to Car Fantasys</h2>
