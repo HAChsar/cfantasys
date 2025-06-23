@@ -31,7 +31,8 @@
     justify-content: center;
     height: 60vh;
     color: black;
-    font-family: cursive;
+    font-family: system-ui, -apple-system,
+     BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     float: left;
     margin-left: 5%;
 }
@@ -90,11 +91,11 @@ nav
         font-weight: bold;
         font-size: small;
         height: auto;
-        text-align: center;
         float: right;
         top:40;
-        margin-right: 10%;
-        align-items: right;
+        left: 00px;
+        
+        align-items: left;
     }
     .home {
         padding: 20px 10px;
@@ -102,7 +103,7 @@ nav
         position: fixed;
         float: center;
         width: fit-content;
-        top: 15%;
+        top: 8%;
     }
     .homepage {
       width: 100%;
@@ -156,14 +157,21 @@ nav
 @media (max-width: 1024px) {
     #displaynav {
         font-size: xx-large;
-        margin-right: 10%;
+        height: auto;
+        float: right;
+        left: 100px;
         text-align: center;
         position: fixed;
-    }
 
+    }
+    .hsell
+    {
+        float: right;
+        margin-right: 130px;
+    }
     .home {
         height: auto;
-        padding: 40px 20px;
+        padding: 60px 20px;
     }
 
     .home p {
